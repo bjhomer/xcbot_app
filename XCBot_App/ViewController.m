@@ -7,12 +7,16 @@
 //
 
 #import "ViewController.h"
+#import <XCBotFramework/XCBotFramework.h>
 
 @implementation ViewController
             
 - (void)viewDidLoad {
     [super viewDidLoad];
-                                    
+    
+    
+    BotObject *object = [BotObject new];
+    NSLog(@"object: %@", object);
     // Do any additional setup after loading the view.
                                 
 }

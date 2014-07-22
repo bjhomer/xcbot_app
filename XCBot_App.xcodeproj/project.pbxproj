@@ -13,6 +13,7 @@
 		B70CAED6197E16EB00D86D64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70CAED5197E16EB00D86D64 /* Images.xcassets */; };
 		B70CAED9197E16EB00D86D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70CAED7197E16EB00D86D64 /* Main.storyboard */; };
 		B70CAEE5197E16EB00D86D64 /* XCBot_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B70CAEE4197E16EB00D86D64 /* XCBot_AppTests.m */; };
+		B7B663F9197E37FB0098ED8C /* XCBotFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B663F6197E37ED0098ED8C /* XCBotFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +23,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = B70CAEC7197E16EB00D86D64;
 			remoteInfo = XCBot_App;
+		};
+		B7B663F5197E37ED0098ED8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B663F0197E37ED0098ED8C /* XCBotFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7B663D4197E36BA0098ED8C;
+			remoteInfo = XCBotFramework;
+		};
+		B7B663F7197E37ED0098ED8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B663F0197E37ED0098ED8C /* XCBotFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7B663DF197E36BA0098ED8C;
+			remoteInfo = XCBotFrameworkTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -38,6 +53,7 @@
 		B70CAEDE197E16EB00D86D64 /* XCBot_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCBot_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70CAEE3197E16EB00D86D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B70CAEE4197E16EB00D86D64 /* XCBot_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCBot_AppTests.m; sourceTree = "<group>"; };
+		B7B663F0197E37ED0098ED8C /* XCBotFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XCBotFramework.xcodeproj; path = xcbot_framework/XCBotFramework.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B663F9197E37FB0098ED8C /* XCBotFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			children = (
 				B70CAECA197E16EB00D86D64 /* XCBot_App */,
 				B70CAEE1197E16EB00D86D64 /* XCBot_AppTests */,
+				B7B663F0197E37ED0098ED8C /* XCBotFramework.xcodeproj */,
 				B70CAEC9197E16EB00D86D64 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,6 +132,15 @@
 				B70CAEE3197E16EB00D86D64 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7B663F1197E37ED0098ED8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7B663F6197E37ED0098ED8C /* XCBotFramework.framework */,
+				B7B663F8197E37ED0098ED8C /* XCBotFrameworkTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +210,12 @@
 			mainGroup = B70CAEBF197E16EB00D86D64;
 			productRefGroup = B70CAEC9197E16EB00D86D64 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B7B663F1197E37ED0098ED8C /* Products */;
+					ProjectRef = B7B663F0197E37ED0098ED8C /* XCBotFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B70CAEC7197E16EB00D86D64 /* XCBot_App */,
@@ -190,6 +223,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B7B663F6197E37ED0098ED8C /* XCBotFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = XCBotFramework.framework;
+			remoteRef = B7B663F5197E37ED0098ED8C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B7B663F8197E37ED0098ED8C /* XCBotFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = XCBotFrameworkTests.xctest;
+			remoteRef = B7B663F7197E37ED0098ED8C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B70CAEC6197E16EB00D86D64 /* Resources */ = {
@@ -404,6 +454,7 @@
 				B70CAEEA197E16EB00D86D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B70CAEEB197E16EB00D86D64 /* Build configuration list for PBXNativeTarget "XCBot_AppTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +463,7 @@
 				B70CAEED197E16EB00D86D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
