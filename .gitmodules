@@ -1,0 +1,3 @@
+[submodule "xcbot_framework"]
+	path = xcbot_framework
+	url = git@github.com:bjhomer/xcbot_framework.git
