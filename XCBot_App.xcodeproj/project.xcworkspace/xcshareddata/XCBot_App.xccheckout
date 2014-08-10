@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8F7724A4-4B4B-4E0E-A2F9-65C78C9B3FED</string>
+	<key>IDESourceControlProjectName</key>
+	<string>XCBot_App</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A0C295F810BE71F1A5DDC5A96BECA10FE7EAC0A1</key>
+		<string>github.com:bjhomer/xcbot_framework.git</string>
+		<key>FE43A72C1770D3F594027A2028E0F2EB7066F476</key>
+		<string>https://github.com/bjhomer/xcbot_app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>XCBot_App.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A0C295F810BE71F1A5DDC5A96BECA10FE7EAC0A1</key>
+		<string>../..xcbot_framework</string>
+		<key>FE43A72C1770D3F594027A2028E0F2EB7066F476</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bjhomer/xcbot_app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FE43A72C1770D3F594027A2028E0F2EB7066F476</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FE43A72C1770D3F594027A2028E0F2EB7066F476</string>
+			<key>IDESourceControlWCCName</key>
+			<string>xcbot_app2</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A0C295F810BE71F1A5DDC5A96BECA10FE7EAC0A1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>xcbot_app2xcbot_framework</string>
+		</dict>
+	</array>
+</dict>
+</plist>
